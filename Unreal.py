@@ -1,7 +1,6 @@
 import bpy
 op = bpy.context.active_operator
 
-op.filepath = 'C:\\Users\\user\\Documents\\untitled.fbx'
 op.use_selection = False
 op.use_visible = True
 op.use_active_collection = False
